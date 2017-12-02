@@ -1,0 +1,997 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% load landing_tags %}
+
+{% block body %}
+    <body class="home page front-slider front-revolution-slider slider-fullscreen front-page-blank wide-width-1540 medium-width-1240 main-width-1000 page-template-blank">
+
+    <div id="wrap" class="clearboth">
+
+        <header id="site-header-sticky" class="clearboth">
+            <div class="grid-container wide-width clearboth">
+                <div class="header-part-top clearboth">
+                    <div class="header-part-left clearboth">
+
+                        <div class="site-branding container-table hide-on-mobile hide-on-tablet">
+                            <div id="site-logo" class="site-logo-image container-table-cell">
+                                <a href="{% url 'landing:index' %}" rel="home"><img
+                                        src="{% static "images/logo.png" %}"
+                                        class="logo-img" alt="Comely"/></a>
+                                {% if success %}
+                                    <h1>success</h1>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="site-branding site-branding-mobile container-table hide-on-tablet hide-on-desktop">
+                            <div id="site-logo-mobile" class="site-logo-image container-table-cell">
+                                <a href="{% url 'landing:index' %}" rel="home"><img
+                                        src="{% static "images/logo.png" %}"
+                                        class="logo-img" alt="Comely"/></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </header>
+    </div>
+    </header><!-- end site-header -->
+    <div id="site-slider" class="slider-fullscreen slider-revolution clearboth">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300%2C600%2C700" rel="stylesheet"
+              property="stylesheet"
+              type="text/css" media="all">
+        <div class="forcefullwidth_wrapper_tp_banner" id="rev_slider_19_1_forcefullwidth"
+             style="position:relative;width:100%;height:500px;margin-top:0px;margin-bottom:0px">
+            <div id="rev_slider_19_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-source="gallery"
+                 style="background: url({% static "images/1.jpg" %});padding: 0px;height: 1000px;margin-top: 0px;margin-bottom: 0px;position: absolute;max-height: none;overflow: visible;width: 100%;left: 0px;background-size: cover;">
+                <!-- START REVOLUTION SLIDER 5.4.5.2 fullscreen mode -->
+                <div id="rev_slider_19_1"
+                     class="rev_slider fullscreenbanner revslider-initialised tp-simpleresponsive rev_redraw_on_blurfocus"
+                     style="max-height: none; margin-top: 0px; margin-bottom: 0px; height: 100%;" data-version="5.4.5.2"
+                     data-slideactive="rs-73">
+
+
+                </div>
+                <script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
+                var htmlDivCss = "";
+                if (htmlDiv) {
+                    htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+                } else {
+                    var htmlDiv = document.createElement("div");
+                    htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+                    document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+                }
+                </script>
+            </div>
+            <div class="tp-fullwidth-forcer" style="width: 100%;height: 300px;"></div>
+        </div><!-- END REVOLUTION SLIDER -->
+    </div>
+    <!-- END REVOLUTION SLIDER -->
+    </div><!-- end site-slider -->
+    <div id="site-content" class="clearboth">
+
+        <div class="svg-line-bottom drawsvg-decor-header">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1920" height="330" class="svg-decor-header">
+                <polygon points="0 88,0 328,1920 328,1920 326" fill="#f8f8f8"/>
+                <polygon points="0 50,0 90,1920 328,1920 0,1210 200" fill="#f8f8f8"/>
+                <line x1="0" y1="90" x2="1920" y2="328" stroke="#232323" stroke-width="2"/>
+                <line x1="1210" y1="200" x2="1920" y2="0" stroke="#232323" stroke-width="2"/>
+            </svg>
+        </div>
+
+        <div id="body-block" class="clearboth">
+            <main id="primary" class="full-width blank-page clearboth">
+
+
+                <div id="post-2473" class="post-2473 page type-page status-publish hentry">
+                    <div class="section-container no-decor clearboth">
+                        <div class="grid-container main-width no-padding-bottom clearboth">
+                            <div class="container-inner no-padding-inner clearboth"><h2 class="section-title"><span
+                                    class="second-part">Что мы предлагаем</span></h2>
+                                <div class="one_third first">
+                                    <div class="figure-block viewport-item align-center clearboth viewport-animated">
+                                        <div class="clearboth" style="margin-top:30px;margin-bottom:50px;">
+                                            <img style="width: 80%;"
+                                                 src="{% static "images/icons/crumb_icons-17.svg" %}">
+                                            <h3>Покрытия
+                                                с укладкой </h3>
+                                            <p>Мы с 2002 года успешно занимаемся производством и укладкой напольных
+                                                покрытий.</p></div>
+                                    </div>
+                                </div>
+                                <div class="one_third">
+                                    <div class="figure-block viewport-item align-center clearboth viewport-animated">
+                                        <div class="clearboth" style="margin-top:30px;margin-bottom:50px;">
+                                            <img style="width: 80%;"
+                                                 src="{% static "images/icons/crumb_icons-22.svg" %}">
+                                            <h3>Площадки
+                                                под ключ</h3>
+                                            <p>Наша компания выполняет полный комплекс работ под ключ по созданию
+                                                детских и
+                                                спортивных площадок любого уровня.</p></div>
+                                    </div>
+                                </div>
+                                <div class="one_third last">
+                                    <div class="figure-block viewport-item align-center clearboth viewport-animated">
+                                        <div class="clearboth" style="margin-top:30px;margin-bottom:50px;">
+                                            <img style="width: 66%; top:-35px"
+                                                 src="{% static "images/icons/crumb_icons-19.svg" %}">
+
+                                            <h3>Бригады
+                                                в аренду</h3>
+                                            <p>Мы не беремся за работу, если в качестве связующего нам предлагают
+                                                использовать некачественный материал.</p></div>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="section-container blank-portfolios clearboth" style="background-color:#f1f1f1;">
+                            <div class="svg-line-top drawsvg-decor-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1920" height="330"
+                                     class="svg-decor-body-top">
+                                    <polygon points="0 0,0 2,1920 240,1920 0" fill="#f8f8f8"/>
+                                    <polygon points="0 0,0 328,710 128,1920 278,1920 238" fill="#f8f8f8"/>
+                                    <line x1="0" y1="2" x2="1920" y2="238" stroke="#232323" stroke-width="2"/>
+                                    <line x1="0" y1="328" x2="710" y2="128" stroke="#232323" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="grid-container wide-width clearboth"><h2 class="section-title"><span
+                                    class="second-part">Резиновые покрытия</span></h2>
+
+                                {% for item in items %}
+                                    <article id="portfolio-{{ item.pk }}"
+                                             class="post-1 nwn_portfolios type-nwn_portfolios status-publish has-post-thumbnail hentry portfolio_cat-permisit-ante grid-portfolio-chaotic portfolio clearboth permisit-ante item">
+                                        <div class="viewport-item">
+                                            <div class="grid-container js-hide-when-form main-width clearboth">
+                                                <div class="grid-40 post-content-media">
+                                                    <ul id="portfolio-gallery-{{ item.pk }}"
+                                                        class="portfolio-gallery-chaotic clearboth">
+                                                        {% for image in item.images.all %}
+                                                            <li>
+                                                                <a href="{{ image.main_image.url }}"
+                                                                   class="rollover-link no-animsition fancybox"
+                                                                   data-fancybox-group="gallery-{{ item.pk }}"><img
+                                                                        width="750" height="460"
+                                                                        src="{{ image.main_image.url }}"
+                                                                        class="attachment-image-landscape size-image-landscape"
+                                                                        alt=""/>
+                                                                    <div class="rollover-overlay overlay-container">
+                                                                        <div class="rollover-block">
+                                                                            <div class="rollover-button-inner clearboth">
+                                                                                <div class="button-rollover"><i
+                                                                                        class="rollover-icon zoom-icon"></i>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                        {% endfor %}
+                                                    </ul>
+
+
+                                                    <div class="sub-image">
+                                                        <div class="price">
+                                                            <a href="#" rel="tag"
+                                                               class="content__paragraph content__paragraph--bold content__paragraph--highlighted">от
+                                                                {{ item.price }} руб</a>
+                                                        </div>
+                                                        <div class="width">
+                                                            <span class="content__paragraph content__paragraph--bold">Толщина:</span>
+                                                            {{ item.width }}
+                                                        </div>
+                                                        <div>Цвета</div>
+                                                        <div class="excerpt-content c-colors">
+                                                            {% for color in item.colors.all %}
+                                                                <span class="colors"
+                                                                      style="background-color: {{ color.hex }};"></span>
+                                                            {% endfor %}
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="grid-container main-width clearboth">
+                                                    <div class="grid-60 post-content margin">
+                                                        <div class="container-table">
+                                                            <div class="container-table-cell">
+                                                                <div class="article-meta">
+                                                                    {#                                                                    <a href="#" rel="tag">от {{ item.price }} руб</a>#}
+                                                                </div>
+                                                                <h3 class="article-title">{{ item.name }}</h3>
+                                                                <div class="excerpt-content">
+                                                                    <p>{{ item.description }}</p></div>
+                                                                <div class="excerpt-content for-what">
+                                                                    {% for usage_item in item.usage %}
+                                                                        {% with 'images/sport/'|add:usage_item|add:'-icon.png' as icon_url %}
+                                                                            <img class="sport"
+                                                                                 title="{{ usage_item|sport_title }}"
+                                                                                 src="{% static icon_url %} ">
+                                                                        {% endwith %}
+                                                                    {% endfor %}
+                                                                    <button class="btn btn-green btn-border-o">
+                                                                        Заказать
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form__wrp">
+                                                <form class="form" method="POST" action="{% url 'store:order' item.pk %}" enctype="multipart/form-data">
+                                                    {% csrf_token %}
+                                                    <div class="form__section">
+                                                        <label class="form__label"> Ф.И.О./Организация:
+                                                            <input class="form__input" name="name" type="text">
+                                                        </label>
+                                                        <label class="form__label"> Телефон:
+                                                            <input class="form__input" name="phone" type="text">
+                                                        </label>
+                                                        <label class="form__label"> E-mail
+                                                            <input class="form__input" name="email" type="email">
+                                                        </label>
+                                                        <label class="form__label">
+                                                            Тех.задание или план:
+                                                            <input class="form__input form__input--file" name="image" type="file">
+                                                        </label>
+                                                    </div>
+                                                    <div class="form__section">
+                                                        <label class="form__label">
+                                                    <textarea class="form__input" name="placename" id="placename"
+                                                              cols="40" rows="5"></textarea>
+                                                        </label>
+                                                        <div class="capcha">
+                                                            <img src="http://www.crumb.ru/bitrix/tools/captcha.php?captcha_sid=08139051a82e41dfc0d6dd8104d1243e"
+                                                                 alt="Введите текст с картинки">
+                                                            <label class="form__label">
+                                                                Введите текст с картинки:
+                                                                <input class="form__input" type="text">
+                                                            </label>
+                                                        </div>
+                                                        <input type="submit" value="Отправить" class="form__submit">
+                                                    </div>
+                                                </form>
+                                                <input type="button" value="закрыть" class="form__back">
+                                            </div>
+                                        </div>
+                                    </article>
+                                {% endfor %}
+
+                            </div>
+
+
+                            <div class="svg-line-bottom drawsvg-decor-bottom">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1920" height="330"
+                                     class="svg-decor-body-bottom">
+                                    <polygon points="0 88,0 328,1920 328,1920 326" fill="#f8f8f8"/>
+                                    <polygon points="0 50,0 90,1920 328,1920 0,1210 200" fill="#f8f8f8"/>
+                                    <line x1="0" y1="90" x2="1920" y2="328" stroke="#232323" stroke-width="2"/>
+                                    <line x1="1210" y1="200" x2="1920" y2="0" stroke="#232323" stroke-width="2"/>
+                                </svg>
+                            </div>
+                        </div>
+
+
+                        <div class="section-container no-decor clearboth">
+                            <div class="grid-container main-width clearboth">
+
+                                <div class="container-inner no-padding-inner clearboth"><h2 class="section-title"><span
+                                        class="second-part">Площадки под ключ</span></h2>
+                                    <div class="blank-workflow-blocks clearboth">
+                                        <div class="workflow-block-odd viewport-item clearboth viewport-animated">
+                                            <div class="grid-33 workflow-equal workflow-icon" style="height: 140px;">
+                                                <div class="container-table">
+                                                    <div class="container-table-cell"><img
+                                                            src=" {% static "images/icons/crumb_icons-20.svg" %}">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-33 workflow-equal workflow-content" style="height: 140px;">
+                                                <div class="container-table">
+                                                    <div class="container-table-cell">
+                                                        <div class="workflow-description">
+                                                            <h3>Проект</h3>
+                                                            <p>Проектироапние муниципальных, дворовых, частных,
+                                                                школьных, спортивных и детских площадок</p></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="line-container line-odd clearboth visible">
+                                                <svg class="svg-line-workflow svg-line-odd drawsvg-initialized drawsvg-initialized ">
+                                                    <path d="M0,0 Q50,100 250,50 T500,100" stroke-width="2"
+                                                          stroke="#232323"
+                                                          fill="none"
+                                                          style="stroke-dasharray: 551.759, 551.759; stroke-dashoffset: 0;"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="workflow-block-even viewport-item clearboth viewport-animated">
+                                            <div class="grid-33 workflow-equal workflow-icon" style="height: 140px;">
+                                                <div class="container-table">
+                                                    <div class="container-table-cell"><img
+                                                            src=" {% static "images/icons/crumb_icons-21.svg" %}">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-33 workflow-equal workflow-content" style="height: 140px;">
+                                                <div class="container-table">
+                                                    <div class="container-table-cell">
+                                                        <div class="workflow-description">
+                                                            <h3>Основание</h3>
+                                                            <p>Подготовка слоев основания, по сути скрытая от вас
+                                                                работа, будьте бдительны.</p></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="line-container line-even clearboth visible">
+                                                <svg class="svg-line-workflow svg-line-even drawsvg-initialized drawsvg-initialized ">
+                                                    <path d="M0,100 Q50,0 250,50 T500,0" stroke-width="2"
+                                                          stroke="#232323"
+                                                          fill="none"
+                                                          style="stroke-dasharray: 551.759, 551.759; stroke-dashoffset: 0;"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="workflow-block-odd viewport-item clearboth viewport-animated">
+                                            <div class="grid-33 workflow-equal workflow-icon" style="height: 140px;">
+                                                <div class="container-table">
+                                                    <div class="container-table-cell"><img
+                                                            src="{% static "images/icons/crumb_icons-22.svg" %}">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-33 workflow-equal workflow-content" style="height: 140px;">
+                                                <div class="container-table">
+                                                    <div class="container-table-cell">
+                                                        <div class="workflow-description">
+                                                            <h3>Покрытие</h3>
+                                                            <p>Мы занимаемся этим так давно, что уже не можем точно
+                                                                вспомнить количество уложенных метров.</p></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="line-container line-odd clearboth visible">
+                                                <svg class="svg-line-workflow svg-line-odd drawsvg-initialized drawsvg-initialized ">
+                                                    <path d="M0,0 Q50,100 250,50 T500,100" stroke-width="2"
+                                                          stroke="#232323"
+                                                          fill="none"
+                                                          style="stroke-dasharray: 551.759, 551.759; stroke-dashoffset: 0;"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="workflow-block-even viewport-item clearboth viewport-animated">
+                                            <div class="grid-33 workflow-equal workflow-icon" style="height: 140px;">
+                                                <div class="container-table">
+                                                    <div class="container-table-cell"><img
+                                                            src="{% static "images/icons/crumb_icons-23.svg" %}">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-33 workflow-equal workflow-content" style="height: 140px;">
+                                                <div class="container-table">
+                                                    <div class="container-table-cell">
+                                                        <div class="workflow-description">
+                                                            <h3>Ограждение</h3>
+                                                            <p>Помимо очевидных преимуществ, с точки зрения эстетики
+                                                                именно ограждение придает площадке законченный
+                                                                оформленный вид.</p></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="line-container line-even clearboth visible full-visible">
+                                                <svg class="svg-line-workflow svg-line-even drawsvg-initialized drawsvg-initialized ">
+                                                    <path d="M0,100 Q50,0 250,50 T500,0" stroke-width="2"
+                                                          stroke="#232323"
+                                                          fill="none"
+                                                          style="stroke-dasharray: 551.759, 551.759; stroke-dashoffset: 0;"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="workflow-block-odd viewport-item clearboth viewport-animated full-visible">
+                                            <div class="grid-33 workflow-equal workflow-icon" style="height: 140px;">
+                                                <div class="container-table">
+                                                    <div class="container-table-cell"><img
+                                                            src="{% static "images/icons/crumb_icons-24.svg" %}">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-33 workflow-equal workflow-content" style="height: 140px;">
+                                                <div class="container-table">
+                                                    <div class="container-table-cell">
+                                                        <div class="workflow-description">
+                                                            <h3>Гарантия</h3>
+                                                            <p>
+                                                                Наша компания предоставляет гарантию, при условии, что
+                                                                покрытие выполняется из наших же материалов.
+
+                                                            </p></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="line-container line-odd clearboth visible full-visible">
+                                                <svg class="svg-line-workflow svg-line-odd drawsvg-initialized drawsvg-initialized ">
+                                                    <path d="M0,0 Q50,100 250,50 T500,100" stroke-width="2"
+                                                          stroke="#232323"
+                                                          fill="none"
+                                                          style="stroke-dasharray: 551.759, 551.759; stroke-dashoffset: 0;"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </main><!-- end primary -->
+    </div><!-- end body-block -->
+    </div><!-- end site-content -->
+
+
+    <footer id="site-footer" class="clearboth">
+        <div class="footer-bgimage" style="background-image: #f1f1f1;">
+
+
+        </div>
+        <div class="svg-line-top drawsvg-decor-top map__svg-div" style="background: #f1f1f1">
+            <svg xmlns="http://www.w3.org/2000/svg" class="map__svg" version="1.1" width="1920" height="330"
+                 class="svg-decor-footer">
+                <polygon points="0 0,0 2,1920 240,1920 0" fill="#f8f8f8"/>
+                <polygon points="0 0,0 328,710 128,1920 278,1920 238" fill="#f8f8f8"/>
+                <line x1="0" y1="2" x2="1920" y2="238" stroke="#232323" stroke-width="2"/>
+                <line x1="0" y1="328" x2="710" y2="128" stroke="#232323" stroke-width="2"/>
+            </svg>
+            <div class="map__wrp">
+                <div id="map"></div>
+            </div>
+        </div>
+
+
+    </footer><!-- end site-footer -->
+    <script>
+        var map;
+        var contentString = '<div id="content">' +
+            '<div id="siteNotice">' +
+            '</div>' +
+            '<h1 id="firstHeading" class="firstHeading">Crumb.ru</h1>' +
+            '<div id="bodyContent">' +
+            '<p>Россия, Московская область, Химки,<br/> Куркинское шоссе, стр 2, офис 1603<br/>+7 (495) 545 35 46; +7 926 234 21 32<br/>sport@crumb.ru</p>' +
+            '</div>' +
+            '</div>';
+
+        function initMap() {
+            var position = {lat: 55.883475, lng: 37.4332548};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: position,
+                zoom: 16,
+                styles: [
+                    {
+                        "featureType": "all",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#fd9b54"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "all",
+                        "elementType": "labels.text",
+                        "stylers": [
+                            {
+                                "color": "#e95b00"
+                            },
+                            {
+                                "visibility": "simplified"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "landscape",
+                        "elementType": "geometry.fill",
+                        "stylers": [
+                            {
+                                "lightness": "100"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "all",
+                        "stylers": [
+                            {
+                                "lightness": "86"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "labels.text",
+                        "stylers": [
+                            {
+                                "lightness": "-60"
+                            },
+                            {
+                                "visibility": "on"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "labels.text.stroke",
+                        "stylers": [
+                            {
+                                "lightness": "89"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "labels.icon",
+                        "stylers": [
+                            {
+                                "visibility": "on"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi.park",
+                        "elementType": "geometry.fill",
+                        "stylers": [
+                            {
+                                "color": "#fedcc3"
+                            },
+                            {
+                                "visibility": "on"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road",
+                        "elementType": "labels.icon",
+                        "stylers": [
+                            {
+                                "visibility": "off"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "geometry.fill",
+                        "stylers": [
+                            {
+                                "lightness": "46"
+                            },
+                            {
+                                "visibility": "on"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway.controlled_access",
+                        "elementType": "labels",
+                        "stylers": [
+                            {
+                                "visibility": "simplified"
+                            },
+                            {
+                                "hue": "#ff2800"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.arterial",
+                        "elementType": "all",
+                        "stylers": [
+                            {
+                                "visibility": "simplified"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.arterial",
+                        "elementType": "geometry.fill",
+                        "stylers": [
+                            {
+                                "lightness": "81"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.local",
+                        "elementType": "all",
+                        "stylers": [
+                            {
+                                "visibility": "simplified"
+                            },
+                            {
+                                "lightness": "49"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.local",
+                        "elementType": "geometry.fill",
+                        "stylers": [
+                            {
+                                "lightness": "75"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.local",
+                        "elementType": "geometry.stroke",
+                        "stylers": [
+                            {
+                                "lightness": "-46"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "transit",
+                        "elementType": "all",
+                        "stylers": [
+                            {
+                                "visibility": "simplified"
+                            },
+                            {
+                                "lightness": "51"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "transit",
+                        "elementType": "labels",
+                        "stylers": [
+                            {
+                                "hue": "#ff2200"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "water",
+                        "elementType": "all",
+                        "stylers": [
+                            {
+                                "color": "#fd9b54"
+                            },
+                            {
+                                "visibility": "on"
+                            }
+                        ]
+                    }
+                ]
+            });
+            var infoWindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+            var marker = new google.maps.Marker({
+                position: position,
+                map: map,
+                animation: google.maps.Animation.DROP,
+                title: 'test'
+            });
+            infoWindow.open(map, marker);
+            marker.addListener('click', function () {
+                infoWindow.open(map, marker);
+            });
+        }
+
+        initMap()
+    </script>
+    <div id="site-overlay">
+        <div class="overlay-container clearboth">
+            <svg class="svg-overlay-line-top">
+                <polyline points="0,50 1210,200 1920,0" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+            </svg>
+            <div class="site-overlay-container clearboth">
+                <div class="grid-container main-width clearboth">
+                    <div class="site-overlay-header clearboth">
+                        <div class="site-overlay-close"><a href="void(0);" class="no-animsition close-overlay"><i
+                                class="theme-icon close-icon"></i></a></div>
+                        <ul class="site-overlay-menu">
+                            <li>
+                                <a href="javascript:void(0);"
+                                   class="no-animsition overlay-menu-item overlay-item-sidebars">
+                                    <span>Info</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="no-animsition overlay-menu-item overlay-item-menu">
+                                    <span>Menu</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="no-animsition overlay-menu-item overlay-item-cart">
+                                    <span>Shopping Cart</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"
+                                   class="no-animsition overlay-menu-item overlay-item-search">
+                                    <span>Search</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="site-overlay-inner-container clearboth">
+                        <div id="site-overlay-sidebars" class="site-overlay-content-sidebars clearboth">
+
+                            <div id="content-scroll-widgets">
+                                <div class="scroll-container clearboth">
+                                    <div class="container-cart container-table clearboth">
+                                        <div class="container-table-cell">
+                                            <div class="grid-33">
+                                                <div id="text-3" class="widget clearboth widget_text">
+                                                    <div class="textwidget"><h3>About <strong>Comely</strong></h3>
+                                                        <p>Pendebat figuras circumdare mundi iners. Bene facientes cura.
+                                                            Umor aequalis sinistra. Regio habendum caelum.</p>
+                                                        <p>Bracchia orba. Uno sive ulla egens nitidis nova nubibus.
+                                                            Traxit
+                                                            occiduo obsistitur tellure. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-33">
+                                                <div id="recent_popular_post-7"
+                                                     class="widget clearboth widget_recent_popular_post"><h3
+                                                        class="widgettitle">Recent Posts</h3>
+                                                    <ul class="recent-popular-lists">
+                                                        <li>
+                                                            <div class="post_list_content clearboth">
+                                                                <div class="widget-time">December 24, 2016</div>
+                                                                <h4 class="widget-title"><a
+                                                                        href="http://comely.netwp.net/totidemque/pressa-adspirate/">Pressa
+                                                                    adspirate</a></h4>
+                                                                <div class="widget-excerpt"><p>Ponderibus locavit
+                                                                    cesserunt
+                                                                    dextra radiis utramque. Lege fluminaque sui cuncta
+                                                                    declivia. Faecis ...</p></div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="grid-33">
+                                                <div id="recent_popular_port-4"
+                                                     class="widget clearboth widget_recent_popular_port"><h3
+                                                        class="widgettitle">Recent Portfolios</h3>
+                                                    <div class="recent-popular-portfolio clearboth">
+                                                        <div class="portfolio-image"><a
+                                                                href="http://comely.netwp.net/portfolio-single/calidis-iners-persidaque/"
+                                                                class="recent-popular-thumbnail rollover-link"
+                                                                title="View Project: Calidis Iners Persidaque"
+                                                                rel="bookmark"><img width="100" height="100"
+                                                                                    src="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-1-100x100.jpg"
+                                                                                    class="attachment-thumbnail size-thumbnail wp-post-image"
+                                                                                    alt=""
+                                                                                    srcset="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-1-100x100.jpg 100w, http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-1-540x540.jpg 540w"
+                                                                                    sizes="(max-width: 100px) 100vw, 100px"/>
+                                                            <div class="rollover-overlay overlay-container">
+                                                                <div class="rollover-block">
+                                                                    <div class="rollover-button-inner clearboth">
+                                                                        <div class="button-rollover"><i
+                                                                                class="rollover-icon external-icon"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a></div>
+                                                        <div class="portfolio-image"><a
+                                                                href="http://comely.netwp.net/portfolio-single/lumina-ardentior/"
+                                                                class="recent-popular-thumbnail rollover-link"
+                                                                title="View Project: Lumina Ardentior"
+                                                                rel="bookmark"><img
+                                                                width="100" height="100"
+                                                                src="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-sunglasses-1-100x100.jpg"
+                                                                class="attachment-thumbnail size-thumbnail wp-post-image"
+                                                                alt=""
+                                                                srcset="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-sunglasses-1-100x100.jpg 100w, http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-sunglasses-1-540x540.jpg 540w"
+                                                                sizes="(max-width: 100px) 100vw, 100px"/>
+                                                            <div class="rollover-overlay overlay-container">
+                                                                <div class="rollover-block">
+                                                                    <div class="rollover-button-inner clearboth">
+                                                                        <div class="button-rollover"><i
+                                                                                class="rollover-icon external-icon"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a></div>
+                                                        <div class="portfolio-image"><a
+                                                                href="http://comely.netwp.net/portfolio-single/imposuit-mentisque/"
+                                                                class="recent-popular-thumbnail rollover-link"
+                                                                title="View Project: Imposuit Mentisque" rel="bookmark"><img
+                                                                width="100" height="100"
+                                                                src="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-3-100x100.jpg"
+                                                                class="attachment-thumbnail size-thumbnail wp-post-image"
+                                                                alt=""
+                                                                srcset="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-3-100x100.jpg 100w, http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-3-540x540.jpg 540w"
+                                                                sizes="(max-width: 100px) 100vw, 100px"/>
+                                                            <div class="rollover-overlay overlay-container">
+                                                                <div class="rollover-block">
+                                                                    <div class="rollover-button-inner clearboth">
+                                                                        <div class="button-rollover"><i
+                                                                                class="rollover-icon external-icon"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a></div>
+                                                        <div class="portfolio-image"><a
+                                                                href="http://comely.netwp.net/portfolio-single/quisque-carentem/"
+                                                                class="recent-popular-thumbnail rollover-link"
+                                                                title="View Project: Quisque Carentem"
+                                                                rel="bookmark"><img
+                                                                width="100" height="100"
+                                                                src="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-4-100x100.jpg"
+                                                                class="attachment-thumbnail size-thumbnail wp-post-image"
+                                                                alt=""
+                                                                srcset="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-4-100x100.jpg 100w, http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-4-540x540.jpg 540w"
+                                                                sizes="(max-width: 100px) 100vw, 100px"/>
+                                                            <div class="rollover-overlay overlay-container">
+                                                                <div class="rollover-block">
+                                                                    <div class="rollover-button-inner clearboth">
+                                                                        <div class="button-rollover"><i
+                                                                                class="rollover-icon external-icon"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a></div>
+                                                        <div class="portfolio-image"><a
+                                                                href="http://comely.netwp.net/portfolio-single/ventos-praeter/"
+                                                                class="recent-popular-thumbnail rollover-link"
+                                                                title="View Project: Ventos Praeter" rel="bookmark"><img
+                                                                width="100" height="100"
+                                                                src="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-5-100x100.jpg"
+                                                                class="attachment-thumbnail size-thumbnail wp-post-image"
+                                                                alt=""
+                                                                srcset="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-5-100x100.jpg 100w, http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-5-540x540.jpg 540w"
+                                                                sizes="(max-width: 100px) 100vw, 100px"/>
+                                                            <div class="rollover-overlay overlay-container">
+                                                                <div class="rollover-block">
+                                                                    <div class="rollover-button-inner clearboth">
+                                                                        <div class="button-rollover"><i
+                                                                                class="rollover-icon external-icon"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a></div>
+                                                        <div class="portfolio-image"><a
+                                                                href="http://comely.netwp.net/portfolio-single/quem-pluviaque/"
+                                                                class="recent-popular-thumbnail rollover-link"
+                                                                title="View Project: Quem Pluviaque" rel="bookmark"><img
+                                                                width="100" height="100"
+                                                                src="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-pencil-cases-1-100x100.jpg"
+                                                                class="attachment-thumbnail size-thumbnail wp-post-image"
+                                                                alt=""
+                                                                srcset="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-pencil-cases-1-100x100.jpg 100w, http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-pencil-cases-1-540x540.jpg 540w"
+                                                                sizes="(max-width: 100px) 100vw, 100px"/>
+                                                            <div class="rollover-overlay overlay-container">
+                                                                <div class="rollover-block">
+                                                                    <div class="rollover-button-inner clearboth">
+                                                                        <div class="button-rollover"><i
+                                                                                class="rollover-icon external-icon"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="site-overlay-menu" class="site-overlay-content-menu container-menu clearboth">
+                            <div id="content-scroll-menu">
+                                <div class="scroll-container">
+                                    <div class="container-menu container-table clearboth">
+                                        <div class="navigation-overlay container-table-cell clearboth">
+                                            <ul id="menu-overlay" class="menu">
+                                                <li class="menu-top-level menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2473 current_page_item">
+                                                    <a href="http://comely.netwp.net/"><span>Home</span></a></li>
+                                                <li class="menu-top-level menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-parent-li">
+                                                    <a href="#"><span>Pages</span></a>
+                                                    <ul class="sub-menu">
+                                                        <li class=" menu-item menu-item-type-post_type menu-item-object-page">
+                                                            <a href="http://comely.netwp.net/pages/about-us/"><span>About Us</span></a>
+                                                        </li>
+                                                        <li class=" menu-item menu-item-type-post_type menu-item-object-page">
+                                                            <a href="http://comely.netwp.net/pages/our-services/"><span>Our Services</span></a>
+                                                        </li>
+                                                        <li class=" menu-item menu-item-type-post_type menu-item-object-page">
+                                                            <a href="http://comely.netwp.net/pages/contact-page/"><span>Contact Page</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-top-level menu-item menu-item-type-post_type menu-item-object-page">
+                                                    <a href="http://comely.netwp.net/news-events/"><span>Blog</span></a>
+                                                </li>
+                                                <li class="menu-top-level menu-item menu-item-type-post_type menu-item-object-page">
+                                                    <a href="http://comely.netwp.net/portfolios/"><span>Portfolios</span></a>
+                                                </li>
+                                                <li class="menu-top-level menu-item menu-item-type-post_type menu-item-object-page">
+                                                    <a href="http://comely.netwp.net/team/"><span>Team</span></a></li>
+                                                <li class="menu-top-level menu-item menu-item-type-post_type menu-item-object-page">
+                                                    <a href="http://comely.netwp.net/shop/"><span>Shop</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="site-overlay-cart" class="site-overlay-content-cart container-cart clearboth">
+
+                            <div id="content-scroll-cart">
+                                <div class="scroll-container">
+                                    <div class="container-cart container-table clearboth">
+                                        <div class="container-table-cell">
+                                            <div class="widget woocommerce widget_shopping_cart">
+                                                <div class="widget_shopping_cart_content"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="site-overlay-search" class="site-overlay-content-search container-table clearboth">
+                            <div class="container-table-cell">
+                                <div class="search-box">
+                                    <form method="get" action="http://comely.netwp.net/">
+                                        <input id="search" class="search-field site-search" name="s" type="text"
+                                               placeholder="Enter Keywords..." value=""/>
+                                        <button class="button-input button-icon" type="submit"><i
+                                                class="theme-icon search-icon"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="site-overlay-footer hide-on-mobile clearboth">
+                        <div class="site-overlay-followus clearboth">
+                            <div class="follow-us"><a href="https://facebook.com/" class="followus"
+                                                      data-toggle="tooltip"
+                                                      data-placement="top" title="Follow Us on Facebook" target="_blank"
+                                                      rel="nofollow">Facebook</a><a href="https://twitter.com/"
+                                                                                    class="followus"
+                                                                                    data-toggle="tooltip"
+                                                                                    data-placement="top"
+                                                                                    title="Follow Us on Twitter"
+                                                                                    target="_blank"
+                                                                                    rel="nofollow">Twitter</a><a
+                                    href="https://behance.net/" class="followus" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="Follow Us on Bechance" target="_blank" rel="nofollow">Bechance</a><a
+                                    href="https://instagram.com/" class="followus" data-toggle="tooltip"
+                                    data-placement="top" title="Follow Us on Instagram" target="_blank" rel="nofollow">Instagram</a>
+                            </div>
+                        </div>
+                        <div class="site-overlay-copyright clearboth">Copyright 2017 <a href="http://comely.netwp.net/">Comely
+                            Theme</a> by <a href="https://netwp.net/">NWN-Themes</a>. All Rights Reserved. Powered by <a
+                                href="https://wordpress.org">WordPress</a>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <svg class="svg-overlay-line-bottom hide-on-mobile">
+                <polyline points="0,200 710,2 1920,150" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+            </svg>
+        </div>
+    </div>
+
+    <div class="wrap-site-overlay"></div>
+    </div><!-- end wrap -->
+    <div id="modal-quickview-form" class="woocommerce">
+        <div class="modal-quickview-header"></div>
+        <div class="modal-quickview-content"></div>
+    </div>
+    </body>
+{% endblock %}

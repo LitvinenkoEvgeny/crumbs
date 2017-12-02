@@ -1,0 +1,119 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet"
+          href="http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic&#038;subset=latin,greek-ext,cyrillic,latin-ext,greek,cyrillic-ext,vietnamese"
+          type="text/css" media="all"/>
+
+    <link rel='stylesheet' id='nwn-style-main-css' href='{% static "css/style.css" %}' type='text/css'
+          media='all'/>
+
+    <title>crumb.ru</title>
+
+
+    <link rel='stylesheet' id='nwn-style-theme-css' href='{% static "css/pumpkin.css" %}' type='text/css' media='all'/>
+    <link rel='stylesheet' id='nwn-style-fancybox-css' href='{% static "assets/fancybox/fancybox.css" %}' type='text/css' media='all'/>
+    <link rel='stylesheet' id='nwn-style-fontface-css' href='{% static "fonts/font-face/fontface.css" %}' type='text/css' media='all'/>
+    <link rel='stylesheet' id='nwn-style-iconic-font-css' href='{% static "fonts/font-icon/iconic-font.css" %}' type='text/css' media='all'/>
+    <script type='text/javascript' src='{% static "assets/jquery/jquery.js" %}'></script>
+    <script type='text/javascript' src='{% static "assets/jquery/jquery-migrate.min.js" %}'></script>
+    <link rel='https://api.w.org/' href='wp-json/'/>
+
+
+    <style type="text/css" media="screen">
+        .wide-width {
+            max-width: 1540px !important;
+        }
+
+        .medium-width {
+            max-width: 1240px !important;
+        }
+
+        .main-width,
+        .woo-message-container {
+            max-width: 1000px !important;
+        }
+
+        @media screen
+        and (min-width: 768px)
+        and (max-width: 1024px) {
+            .wide-width,
+            .medium-width,
+            .main-width,
+            .woo-message-container {
+                max-width: 1000px !important;
+            }
+        }
+    </style>
+    <meta name="generator"
+          content="Powered by Slider Revolution 5.4.5.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."/>
+    <script type="text/javascript">function setREVStartSize(e) {
+        try {
+            var i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
+            if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) {
+                    f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
+                }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
+                var u = (e.c.width(), jQuery(window).height());
+                if (void 0 != e.fullScreenOffsetContainer) {
+                    var c = e.fullScreenOffsetContainer.split(",");
+                    if (c) jQuery.each(c, function (e, i) {
+                        u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
+                    }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
+                }
+                f = u
+            } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
+            e.c.closest(".rev_slider_wrapper").css({height: f})
+        } catch (d) {
+            console.log("Failure at Presize of Slider:" + d)
+        }
+    };</script>
+    <script src="{% static "plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js" %}"></script>
+    <script src="{% static "plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js" %}"></script>
+
+    <script src='{% static "assets/jquery/ui/core.min.js" %}'></script>
+    <script src='{% static "assets/jquery/ui/widget.min.js" %}'></script>
+    <script src="{% static "assets/jquery/ui/dialog.min.js" %}"></script>
+    <script src='{% static "assets/jquery/ui/mouse.min.js" %}'></script>
+    <script src='{% static "assets/jquery/ui/resizable.min.js" %}'></script>
+    <script src='{% static "assets/jquery/ui/draggable.min.js" %}'></script>
+    <script src='{% static "assets/jquery/ui/button.min.js" %}'></script>
+    <script src='{% static "assets/jquery/ui/position.min.js" %}'></script>
+
+    <script src='{% static "js/modernizr.min.js" %}'></script>
+    <script src='{% static "js/jquery.main-head.min.js" %}'></script>
+    <script src='{% static "js/mediaelement/mediaelement-and-player.min.js" %}'></script>
+    <script>
+        /* <![CDATA[ */
+        var nwn_custom_menu_l10n = {"mega_menu_row": "4", "mega_menu_open": "fade", "menu_speed": "fast"};
+        var nwn_fancybox_l10n = {
+            "fancybox_error": "The requested content cannot be loaded.<br\/>Please try again later.",
+            "fancybox_close": "Close",
+            "fancybox_next": "Next",
+            "fancybox_prev": "Previous",
+            "fancybox_zoomin": "Zoom in",
+            "fancybox_play": "Start slideshow",
+            "fancybox_speed": "normal",
+            "fancybox_opening": "fade",
+            "fancybox_turning": "elastic",
+            "fancybox_title": "disable",
+            "fancybox_slideshow": "true",
+            "fancybox_zoom": "true",
+            "fancybox_thumb": "true"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='{% static "js/jquery.main-footer.min.js" %}'></script>
+    <script type='text/javascript' src='{% static "js/jquery.custom.js" %}'></script>
+    <script src="{% static "js/buy.js" %}"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ-Vz2DLErYda330CfkodSoAjfmP5yzUw&callback=initMap"></script>
+</head>
+{% block body %}
+{% endblock %}
+
+</html>

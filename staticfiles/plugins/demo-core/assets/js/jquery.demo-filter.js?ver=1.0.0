@@ -1,0 +1,32 @@
+/**
+ * ********************************************************
+ *
+ * @author		NWN-Themes
+ * @copyright	Copyright (c) NWN-Themes
+ * @link		http://themeforest.net/user/NWN-Themes
+ * @link		http://netwp.net/
+ * @since		1.0.0
+ *
+ * ********************************************************
+ */
+
+( function($) {
+	"use strict";
+	$(document).ready( function() {
+		setTimeout( function() {
+			$( '.isotope-container' ).isotope({
+				itemSelector    : '.isotope-item',
+				animationEngine : 'jquery',
+				masonry         : {
+					columnWidth : '.grid-20, .grid-25, .grid-33, .grid-50'
+				}
+			});
+		}, 1000 );
+		$( '#demo-filters' ).on( 'click', 'a', function() {
+			var filterValue = $(this).attr( 'data-filter' );
+			$( '.isotope-container' ).isotope({
+				filter : filterValue
+			});
+		});
+	});
+})(jQuery);
