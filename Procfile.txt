@@ -1,1 +1,1 @@
-web: gunicorn crumb2.wsgi
+web: gunicorn crumb2.wsgi --log-file -
