@@ -25,7 +25,7 @@ SECRET_KEY = '!y)1&ny6i5b+wx0d$vlzzwd+6)6%whx2_mg8@qomv=fympo8w_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['0.0.0.0', 'bestlayers.herokuapp.com']
 INTERNAL_IPS = ['127.0.0.1']
 
 
