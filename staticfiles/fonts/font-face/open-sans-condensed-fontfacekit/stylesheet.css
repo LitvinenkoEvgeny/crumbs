@@ -4,11 +4,11 @@
 
 @font-face {
     font-family: 'OpenSansCondensedLight';
-    src: url('OpenSans-CondLight-webfont.eot');
-    src: url('OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-CondLight-webfont.woff') format('woff'),
-         url('OpenSans-CondLight-webfont.ttf') format('truetype'),
-         url('OpenSans-CondLight-webfont.svg#OpenSansCondensedLight') format('svg');
+    src: url('/static/fonts/font-face/OpenSans-CondLight-webfont.eot');
+    src: url('/static/fonts/font-face/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/font-face/OpenSans-CondLight-webfont.woff') format('woff'),
+         url('/static/fonts/font-face/OpenSans-CondLight-webfont.ttf') format('truetype'),
+         url('/static/fonts/font-face/OpenSans-CondLight-webfont.svg#OpenSansCondensedLight') format('svg');
     font-weight: normal;
     font-style: normal;
 

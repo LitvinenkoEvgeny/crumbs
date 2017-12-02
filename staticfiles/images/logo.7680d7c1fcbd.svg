@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="47.130898mm"
+   height="42.566216mm"
+   viewBox="0 0 47.130898 42.566216"
+   version="1.1"
+   id="svg125"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs119" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3031757"
+     inkscape:cx="-102.7123"
+     inkscape:cy="-52.348991"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="855"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-bottom="1.2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0" />
+  <metadata
+     id="metadata122">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-8.1071796,-0.80562876)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot188"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion190"><rect
+           id="rect192"
+           width="229.43951"
+           height="214.85974"
+           x="214.09239"
+           y="304.51791" /></flowRegion><flowPara
+         id="flowPara194"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot196"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion198"><rect
+           id="rect200"
+           width="273.17883"
+           height="256.297"
+           x="184.93285"
+           y="269.98688" /></flowRegion><flowPara
+         id="flowPara202"></flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458225px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 12.919145,10.649269 0.215348,22.754657 -3.2531157,-0.003 -1.637024,-17.727266 z"
+       id="path30"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 13.266728,33.406066 40.350362,0.0269 1.29208,-12.759231 -12.902793,-3.660866 0.251238,5.957886 2.404692,0.10768 0.879327,-15.1997963 -16.384205,-6.87311 0.363398,32.4094853"
+       id="path32"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458615px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 12.989633,10.470319 11.485531,2.11753 -0.107674,14.768837 -1.812564,0.0538 -2.871384,-17.6759672 9.287132,-8.79314005"
+       id="path34"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="7.8197837"
+       y="42.021984"
+       id="text77"><tspan
+         sodipodi:role="line"
+         id="tspan75"
+         x="7.8197837"
+         y="42.021984"
+         style="stroke-width:0.26458332">crumb.ru</tspan></text>
+  </g>
+</svg>

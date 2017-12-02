@@ -134,7 +134,7 @@
 	height:100%;
 	cursor:pointer;
 	text-decoration:none;
-	background:transparent url('../images/fancybox/blank.gif'); /* helps IE */
+	background:transparent url('/static/assets/fancybox/blank.gif'); /* helps IE */
 	-webkit-tap-highlight-color:rgba(0,0,0,0);
 	z-index:900040;
 	}
