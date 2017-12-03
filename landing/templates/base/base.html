@@ -14,11 +14,14 @@
     <link rel='stylesheet' id='nwn-style-main-css' href='{% static "css/style.css" %}' type='text/css'
           media='all'/>
 
-    <title>crumb.ru</title>
+    <title>{{ company_info.title }}</title>
+    <meta name="Keywords" content="{{ company_info.keywords }}"/>
+    <meta name="Description" content="{{ company_info.description }}"/>
 
 
     <link rel='stylesheet' id='nwn-style-theme-css' href='{% static "css/pumpkin.css" %}' type='text/css' media='all'/>
-    <link rel='stylesheet' id='nwn-style-fancybox-css' href='{% static "assets/fancybox/fancybox.css" %}' type='text/css' media='all'/>
+    <link rel='stylesheet' id='nwn-style-fancybox-css' href='{% static "assets/fancybox/fancybox.css" %}'
+          type='text/css' media='all'/>
     <script type='text/javascript' src='{% static "assets/jquery/jquery.js" %}'></script>
     <script type='text/javascript' src='{% static "assets/jquery/jquery-migrate.min.js" %}'></script>
     <link rel='https://api.w.org/' href='wp-json/'/>
@@ -73,7 +76,6 @@
     };</script>
 
 
-
     <script src="{% static "plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js" %}"></script>
     <script src="{% static "plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js" %}"></script>
 
@@ -112,7 +114,8 @@
     <script type='text/javascript' src='{% static "js/jquery.main-footer.min.js" %}'></script>
     <script type='text/javascript' src='{% static "js/jquery.custom.js" %}'></script>
     <script src="{% static "js/buy.js" %}"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ-Vz2DLErYda330CfkodSoAjfmP5yzUw&callback=initMap"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ-Vz2DLErYda330CfkodSoAjfmP5yzUw&callback=initMap"></script>
 
 
     {#    toastr#}

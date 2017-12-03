@@ -169,11 +169,11 @@
                                                         class="portfolio-gallery-chaotic clearboth">
                                                         {% for image in item.images.all %}
                                                             <li>
-                                                                <a href="{{ image.main_image.url }}"
+                                                                <a href="{{ image.big_image.url }}"
                                                                    class="rollover-link no-animsition fancybox"
                                                                    data-fancybox-group="gallery-{{ item.pk }}"><img
                                                                         width="750" height="460"
-                                                                        src="{{ image.main_image.url }}"
+                                                                        src="{{ image.little_image.url }}"
                                                                         class="attachment-image-landscape size-image-landscape"
                                                                         alt=""/>
                                                                     <div class="rollover-overlay overlay-container">
@@ -220,7 +220,7 @@
                                                                 </div>
                                                                 <h3 class="article-title">{{ item.name }}</h3>
                                                                 <div class="excerpt-content">
-                                                                    <p>{{ item.description }}</p></div>
+                                                                    <p>{{ item.description|linebreaksbr }}</p></div>
                                                                 <div class="excerpt-content for-what">
                                                                     {% for usage_item in item.usage %}
                                                                         {% with 'images/sport/'|add:usage_item|add:'-icon.png' as icon_url %}
@@ -474,9 +474,15 @@
         var contentString = '<div id="content">' +
             '<div id="siteNotice">' +
             '</div>' +
-            '<h1 id="firstHeading" class="firstHeading">Crumb.ru</h1>' +
+            '<h1 id="firstHeading" class="firstHeading">{{ company_info.name }}</h1>' +
             '<div id="bodyContent">' +
-            '<p>Россия, Московская область, Химки,<br/> Куркинское шоссе, стр 2, офис 1603<br/>+7 (495) 545 35 46; +7 926 234 21 32<br/>sport@crumb.ru</p>' +
+            '<p>{{ company_info.country }}, {{ company_info.state }} область, {{ company_info.city }},<br/> {{ company_info.street }}, {{ company_info.building }}, {{ company_info.office }}<br/>' +
+
+            {% for phone in company_info.phones.all %}
+                '<a href="tel:{{ phone.number }}">{{ phone.number }};</a> ' +
+            {% endfor %}
+
+            '<br/><a href="mailto:{{ company_info.email }}">{{ company_info.email }}</a></p>' +
             '</div>' +
             '</div>';
 
