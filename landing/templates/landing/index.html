@@ -17,8 +17,27 @@
                                 <a href="{% url 'landing:index' %}" rel="home"><img
                                         src="{% static "images/logo.png" %}"
                                         class="logo-img" alt="Comely"/></a>
-                                {% if success %}
-                                    <h1>success</h1>
+                                {% if show_message %}
+                                    <script>
+                                        toastr.options = {
+                                            "closeButton": false,
+                                            "debug": false,
+                                            "newestOnTop": false,
+                                            "progressBar": true,
+                                            "positionClass": "toast-top-right",
+                                            "preventDuplicates": false,
+                                            "onclick": null,
+                                            "showDuration": "300",
+                                            "hideDuration": "1000",
+                                            "timeOut": "5000",
+                                            "extendedTimeOut": "1000",
+                                            "showEasing": "swing",
+                                            "hideEasing": "linear",
+                                            "showMethod": "fadeIn",
+                                            "hideMethod": "fadeOut"
+                                        };
+                                        toastr["success"]("Мы получили ваш заказ и свяжемся с вами в ближайшее время", "Заказ отправлен")
+                                    </script>
                                 {% endif %}
                             </div>
                         </div>
@@ -221,27 +240,34 @@
                                             </div>
 
                                             <div class="form__wrp">
-                                                <form class="form" method="POST" action="{% url 'store:order' item.pk %}" enctype="multipart/form-data">
+                                                <form class="form" method="POST"
+                                                      action="{% url 'store:order' item.pk %}"
+                                                      enctype="multipart/form-data">
                                                     {% csrf_token %}
                                                     <div class="form__section">
                                                         <label class="form__label"> Ф.И.О./Организация:
-                                                            <input class="form__input" name="name" type="text">
+                                                            <input class="form__input" required name="name" type="text">
                                                         </label>
                                                         <label class="form__label"> Телефон:
-                                                            <input class="form__input" name="phone" type="text">
+                                                            <input class="form__input" required name="phone"
+                                                                   type="text">
                                                         </label>
                                                         <label class="form__label"> E-mail
-                                                            <input class="form__input" name="email" type="email">
+                                                            <input class="form__input" required name="email"
+                                                                   type="email">
                                                         </label>
                                                         <label class="form__label">
                                                             Тех.задание или план:
-                                                            <input class="form__input form__input--file" name="image" type="file">
+                                                            <input class="form__input form__input--file" name="image"
+                                                                   type="file">
                                                         </label>
                                                     </div>
                                                     <div class="form__section">
                                                         <label class="form__label">
-                                                    <textarea class="form__input" name="placename" id="placename"
-                                                              cols="40" rows="5"></textarea>
+                                                            Дополнительная информация:
+                                                            <textarea class="form__input" name="placename"
+                                                                      id="placename"
+                                                                      cols="40" rows="5"></textarea>
                                                         </label>
                                                         <input type="submit" value="Отправить" class="form__submit">
                                                     </div>
@@ -418,8 +444,8 @@
                         </div>
                     </div>
                 </div>
-        </main><!-- end primary -->
-    </div><!-- end body-block -->
+            </main><!-- end primary -->
+        </div><!-- end body-block -->
     </div><!-- end site-content -->
 
 

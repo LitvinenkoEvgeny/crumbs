@@ -13,6 +13,13 @@ def handle_uploaded_file(f):
 
 def order(request, pk):
     related_item = Item.objects.get(pk=pk)
-    new_order = Order(item=related_item, description=request.POST['placename'], email=request.POST['email'], phone=request.POST['phone'], name=request.POST['name'], image=request.FILES['image'])
+    if request.FILES:
+        image = request.FILES['image']
+    else:
+        image = None
+
+    new_order = Order(item=related_item, description=request.POST['placename'], email=request.POST['email'],
+                      phone=request.POST['phone'], name=request.POST['name'], image=image)
     new_order.save()
+    request.session['from_order'] = True
     return redirect(reverse('landing:index'))

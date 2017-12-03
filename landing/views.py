@@ -6,4 +6,5 @@ from .models import Item
 
 def index(request):
     items = get_list_or_404(Item)
-    return render(request, 'landing/index.html', {'items': items})
+    from_order = request.session.pop('from_order', False)
+    return render(request, 'landing/index.html', {'items': items, 'show_message': from_order})
