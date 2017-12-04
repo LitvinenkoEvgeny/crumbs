@@ -11691,3 +11691,22 @@ html.mobile.portrait .form__input {
 html.mobile.portrait .form__submit {
 	align-self: center;
 }
+html.mobile .header-part-right {
+	width: 100%;
+	flex-direction: column;
+	margin-top: 50px;
+	align-items: center;
+}
+
+html.mobile .header-right__email {
+	margin-top: 10px;
+}
+
+html.mobile .header-right__phone {
+	margin-top: 10px;
+}
+
+html.mobile .header-right__phone-list-item {
+	margin-top: 10px;
+}
+

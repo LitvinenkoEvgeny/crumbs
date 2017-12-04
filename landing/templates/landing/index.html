@@ -49,8 +49,20 @@
                             </div>
                         </div>
                     </div>
+                    <div class="header-part-right clearboth">
+                        <a href="mailto:{{ company_info.email }}" class="header-right__email"><i
+                                class="fa fa-envelope-o"></i> {{ company_info.email }}</a>
 
+                            <ul class="header-right__phone-list">
+                                {% for phone in company_info.phones.all %}
+                                <li class="header-right__phone-list-item">
 
+                                    <a class="header-right__phone" href="tel:{{ phone.number }}"><i class="fa fa-phone"></i> {{ phone.number }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+
+                    </div>
                 </div>
             </div>
         </header>

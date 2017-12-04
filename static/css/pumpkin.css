@@ -2214,3 +2214,41 @@ pre,
     color: #f38600;
     font-size: 1.3em;
 }
+
+.header-part-right {
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: baseline;
+    height: auto;
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+.header-right__heading {
+    color: #ffffff;
+}
+
+.header-right__phone {
+    color: #ffffff;
+}
+
+.header-right__email {
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+.header-right__phone-list {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.header-right__phone-list {
+    display: flex;
+}
+
+.header-right__phone-list-item {
+    margin: 0 5px;
+}
