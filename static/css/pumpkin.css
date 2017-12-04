@@ -2079,12 +2079,19 @@ pre,
     color: #e74c3c;
 }
 
+.item {
+    position: relative;
+}
+
 .item:after {
-    display: block;
+    content: '';
+    position: absolute;
     width: 50%;
+    left: 25%;
+    display: block;
+    bottom: 0;
     height: 1px;
     background-color: rgba(0, 0, 0, .1);
-    margin: 170px auto 0;
 }
 
 
@@ -2163,7 +2170,6 @@ pre,
 }
 .form__input{
         border-radius: 5px;
-
 }
 
 .map__svg {

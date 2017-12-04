@@ -170,7 +170,7 @@
                                                         {% for image in item.images.all %}
                                                             <li>
                                                                 <a href="{{ image.big_image.url }}"
-                                                                   class="rollover-link no-animsition fancybox"
+                                                                   class="js-prevent-context-menu rollover-link no-animsition fancybox"
                                                                    data-fancybox-group="gallery-{{ item.pk }}"><img
                                                                         width="750" height="460"
                                                                         src="{{ image.little_image.url }}"
@@ -1017,5 +1017,6 @@
         <div class="modal-quickview-header"></div>
         <div class="modal-quickview-content"></div>
     </div>
+    <script src="{% static 'js/setsize.js' %}"></script>
     </body>
 {% endblock %}

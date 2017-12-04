@@ -11679,3 +11679,15 @@ html.tablet.landscape {}
  */
 html.desktop {}
 
+
+html.mobile.portrait .form {
+	flex-direction: column;
+}
+
+html.mobile.portrait .form__input {
+	width: 100%;
+}
+
+html.mobile.portrait .form__submit {
+	align-self: center;
+}
