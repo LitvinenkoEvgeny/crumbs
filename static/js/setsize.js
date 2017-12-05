@@ -9,12 +9,18 @@ function resizeArticles() {
     $articles.each(function (index, article) {
 
         var contentHeight = $('.container-table', article).height();
+        var mediaHeight = $('.post-content-media').height();
 
         if(isStacked){
-            contentHeight += $('.post-content-media').height();
+            contentHeight += mediaHeight;
         }
 
-        $(article).height(contentHeight + 100);
+        if(mediaHeight > contentHeight){
+            $(article).height(mediaHeight);
+        } else {
+            $(article).height(contentHeight);
+        }
+
     });
 }
 
