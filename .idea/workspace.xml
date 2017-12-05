@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="499cc671-08a6-48e6-a2a3-63e5461a2ea7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/admin.py" afterPath="$PROJECT_DIR$/landing/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/templates/landing/index.html" afterPath="$PROJECT_DIR$/landing/templates/landing/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/assets/fancybox/fancybox.css" afterPath="$PROJECT_DIR$/static/assets/fancybox/fancybox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/pumpkin.css" afterPath="$PROJECT_DIR$/static/css/pumpkin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/fonts/font-icon/iconic-font.css" afterPath="$PROJECT_DIR$/static/fonts/font-icon/iconic-font.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/jquery.custom.js" afterPath="$PROJECT_DIR$/static/js/jquery.custom.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,14 +24,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/landing/templates/landing/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="468" column="91" lean-forward="false" selection-start-line="468" selection-start-column="91" selection-end-line="468" selection-end-column="91" />
+            <state relative-caret-position="0">
+              <caret line="79" column="16" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
               <folding>
-                <element signature="e#22017#34237#0#HTML" expanded="false" />
+                <element signature="e#22005#34225#0#HTML" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fancybox.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/assets/fancybox/fancybox.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,18 +69,58 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="11725" column="14" lean-forward="false" selection-start-line="11725" selection-start-column="14" selection-end-line="11725" selection-end-column="14" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="iconic-font.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/fonts/font-icon/iconic-font.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.custom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/jquery.custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-204">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <marker date="1512515055960" expanded="true" signature="16562:16791" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="16597:16779" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="16650:16766" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="16688:16752" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="16904:17133" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="16939:17121" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="16992:17108" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="17030:17094" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="17251:17484" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="17286:17472" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="17339:17459" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="17377:17445" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="27672:27731" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="27898:27956" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="28123:28181" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="28449:28512" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="28734:28794" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="29435:29653" ph="..." />
+                <marker date="1512515055960" expanded="true" signature="29576:29639" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/landing/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="535">
+              <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -74,8 +129,8 @@
       <file leaf-file-name="pumpkin.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/pumpkin.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="2247" column="0" lean-forward="false" selection-start-line="2247" selection-start-column="0" selection-end-line="2247" selection-end-column="0" />
+            <state relative-caret-position="160">
+              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -99,6 +154,7 @@
       <find>im/(sport/[\w\s-\.]+)</find>
       <find>im/blender</find>
       <find>im/(blender.+)&quot;</find>
+      <find>comely</find>
     </findStrings>
     <replaceStrings>
       <replace>{% static &quot;images/$1&quot; %}</replace>
@@ -127,8 +183,6 @@
         <option value="$PROJECT_DIR$/crumb2/wsgi.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/static/fonts/font-face/open-sans-condensed-fontfacekit/stylesheet.css" />
-        <option value="$PROJECT_DIR$/static/fonts/font-icon/iconic-font.css" />
-        <option value="$PROJECT_DIR$/static/assets/fancybox/fancybox.css" />
         <option value="$PROJECT_DIR$/Procfile.txt" />
         <option value="$PROJECT_DIR$/static/fonts/font-face/fontface.css" />
         <option value="$PROJECT_DIR$/staticfiles/staticfiles.json" />
@@ -139,10 +193,13 @@
         <option value="$PROJECT_DIR$/landing/templates/base/base.html" />
         <option value="$PROJECT_DIR$/landing/views.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/static/css/pumpkin.css" />
-        <option value="$PROJECT_DIR$/landing/templates/landing/index.html" />
-        <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/landing/admin.py" />
+        <option value="$PROJECT_DIR$/static/assets/fancybox/fancybox.css" />
+        <option value="$PROJECT_DIR$/static/css/pumpkin.css" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/static/fonts/font-icon/iconic-font.css" />
+        <option value="$PROJECT_DIR$/static/js/jquery.custom.js" />
+        <option value="$PROJECT_DIR$/landing/templates/landing/index.html" />
       </list>
     </option>
   </component>
@@ -214,6 +271,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="comely&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -264,6 +322,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="499cc671-08a6-48e6-a2a3-63e5461a2ea7" name="Default" comment="" />
@@ -288,6 +349,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3090677" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24236111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -297,7 +359,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -312,14 +373,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/landing/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crumb2/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1498">
@@ -491,20 +544,6 @@
     <entry file="file://$PROJECT_DIR$/static/fonts/font-face/open-sans-condensed-fontfacekit/stylesheet.css" />
     <entry file="file://$PROJECT_DIR$/static/fonts/font-face/fontface.css?ver=1.0.0" />
     <entry file="file://$PROJECT_DIR$/static/fonts/font-icon/font-fontello/font-fontello.css" />
-    <entry file="file://$PROJECT_DIR$/static/assets/fancybox/fancybox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="139" column="4" lean-forward="false" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/fonts/font-icon/iconic-font.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/fonts/fontello/fontello.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -579,29 +618,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/pumpkin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="2247" column="0" lean-forward="false" selection-start-line="2247" selection-start-column="0" selection-end-line="2247" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/landing/templates/base/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="58" column="22" lean-forward="false" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landing/templates/landing/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="468" column="91" lean-forward="false" selection-start-line="468" selection-start-column="91" selection-end-line="468" selection-end-column="91" />
-          <folding>
-            <element signature="e#22017#34237#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,19 +642,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/landing/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="11725" column="14" lean-forward="false" selection-start-line="11725" selection-start-column="14" selection-end-line="11725" selection-end-column="14" />
+        <state relative-caret-position="535">
+          <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landing/admin.py">
+    <entry file="file://$PROJECT_DIR$/static/assets/fancybox/fancybox.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="82">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/pumpkin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/fonts/font-icon/iconic-font.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1512515055960" expanded="true" signature="16562:16791" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="16597:16779" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="16650:16766" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="16688:16752" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="16904:17133" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="16939:17121" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="16992:17108" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="17030:17094" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="17251:17484" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="17286:17472" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="17339:17459" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="17377:17445" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="27672:27731" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="27898:27956" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="28123:28181" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="28449:28512" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="28734:28794" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="29435:29653" ph="..." />
+            <marker date="1512515055960" expanded="true" signature="29576:29639" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/templates/landing/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="79" column="16" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+          <folding>
+            <element signature="e#22005#34225#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
