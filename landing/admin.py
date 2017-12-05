@@ -22,6 +22,7 @@ class ColorAdmin(admin.ModelAdmin):
 
 
 class ItemAdmin(admin.ModelAdmin):
+    ordering = ('pk',)
     inlines = (ImageModelAdmin, ColorAdminInline)
     form = ItemForm
 
