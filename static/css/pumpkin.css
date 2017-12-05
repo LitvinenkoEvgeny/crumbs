@@ -2227,7 +2227,11 @@ pre,
     font-size: 1.3em;
 }
 
-.header-right__heading {
+.header-right__phone-list {
+    list-style-type: none;
+}
+
+.header-right__email {
     color: #ffffff;
 }
 
@@ -2235,20 +2239,15 @@ pre,
     color: #ffffff;
 }
 
-.header-right__email {
-    color: #ffffff;
-    margin-right: 5px;
+.container-table-cell {
+    vertical-align: top;
 }
 
-.header-right__phone-list {
-    list-style-type: none;
-    margin-left: 0;
+.no-capitalize {
+    text-transform: none;
 }
 
-.header-right__phone-list {
-    display: flex;
-}
-
-.header-right__phone-list-item {
-    margin: 0 5px;
+.about-company {
+    max-width: 830px;
+    text-align: center;
 }

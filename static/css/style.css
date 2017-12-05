@@ -11706,7 +11706,22 @@ html.mobile .header-right__phone {
 	margin-top: 10px;
 }
 
+html.mobile .header-right__phone-list {
+	margin: 0;
+}
+
 html.mobile .header-right__phone-list-item {
 	margin-top: 10px;
 }
 
+html.mobile .little-text-on-mobile {
+	font-size: .8em;
+}
+
+html.mobile .map__svg-div {
+    height: 928px;
+}
+
+html.mobile .map__wrp {
+	top: -10px;
+}

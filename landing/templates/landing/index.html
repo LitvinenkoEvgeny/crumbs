@@ -53,14 +53,15 @@
                         <a href="mailto:{{ company_info.email }}" class="header-right__email"><i
                                 class="fa fa-envelope-o"></i> {{ company_info.email }}</a>
 
-                            <ul class="header-right__phone-list">
-                                {% for phone in company_info.phones.all %}
+                        <ul class="header-right__phone-list">
+                            {% for phone in company_info.phones.all %}
                                 <li class="header-right__phone-list-item">
 
-                                    <a class="header-right__phone" href="tel:{{ phone.number }}"><i class="fa fa-phone"></i> {{ phone.number }}</a>
+                                    <a class="header-right__phone" href="tel:{{ phone.number }}"><i
+                                            class="fa fa-phone"></i> {{ phone.number }}</a>
                                 </li>
-                                {% endfor %}
-                            </ul>
+                            {% endfor %}
+                        </ul>
 
                     </div>
                 </div>
@@ -454,6 +455,34 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="svg-line-bottom drawsvg-decor-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1920" height="330"
+                                 class="svg-decor-header">
+                                <polygon points="0 88,0 328,1920 328,1920 326" fill="#f8f8f8"/>
+                                <polygon points="0 50,0 90,1920 328,1920 0,1210 200" fill="#f8f8f8"/>
+                                <line x1="0" y1="90" x2="1920" y2="328" stroke="#232323" stroke-width="2"/>
+                                <line x1="1210" y1="200" x2="1920" y2="0" stroke="#232323" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <div class="section-container no-decor clearboth">
+                            <div class="grid-container main-width clearboth">
+                                <h2 class="section-title no-capitalize little-text-on-mobile"><span class="second-part">Контакты и местоположение</span></h2>
+                                <div class="about-company">
+                                    <p>По вопросам приобретения резиновой плитки и брусчатки, а также сотрудничества на
+                                        дилерской основе обращаться:</p>
+                                    <h2 class="section-title">{{ company_info.name }}</h2>
+                                    <address>{{ company_info.city }}, г.{{ company_info.street }}, ул.{{ company_info.building }}</address>
+                                    {% for phone in company_info.phones.all %}
+                                        <p>
+                                            <a href="tel:{{ phone.number }}">{{ phone.number }}</a>
+                                        </p>
+                                    {% endfor %}
+                                    <p><a href="mailto:{{ company_info.email }}">{{ company_info.email }}</a></p>
+
+                                    <p>с понедельника по пятницу с 8:00 до 17:00 (время московское)</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </main><!-- end primary -->
@@ -780,7 +809,7 @@
                                                             <div class="post_list_content clearboth">
                                                                 <div class="widget-time">December 24, 2016</div>
                                                                 <h4 class="widget-title"><a
-                                                                        href="http://comely.netwp.net/totidemque/pressa-adspirate/">Pressa
+                                                                        href="">Pressa
                                                                     adspirate</a></h4>
                                                                 <div class="widget-excerpt"><p>Ponderibus locavit
                                                                     cesserunt
@@ -797,14 +826,14 @@
                                                         class="widgettitle">Recent Portfolios</h3>
                                                     <div class="recent-popular-portfolio clearboth">
                                                         <div class="portfolio-image"><a
-                                                                href="http://comely.netwp.net/portfolio-single/calidis-iners-persidaque/"
+                                                                href=""
                                                                 class="recent-popular-thumbnail rollover-link"
                                                                 title="View Project: Calidis Iners Persidaque"
                                                                 rel="bookmark"><img width="100" height="100"
-                                                                                    src="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-1-100x100.jpg"
+                                                                                    src=""
                                                                                     class="attachment-thumbnail size-thumbnail wp-post-image"
                                                                                     alt=""
-                                                                                    srcset="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-1-100x100.jpg 100w, http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-1-540x540.jpg 540w"
+                                                                                    srcset=""
                                                                                     sizes="(max-width: 100px) 100vw, 100px"/>
                                                             <div class="rollover-overlay overlay-container">
                                                                 <div class="rollover-block">
@@ -817,15 +846,15 @@
                                                             </div>
                                                         </a></div>
                                                         <div class="portfolio-image"><a
-                                                                href="http://comely.netwp.net/portfolio-single/lumina-ardentior/"
+                                                                href=""
                                                                 class="recent-popular-thumbnail rollover-link"
                                                                 title="View Project: Lumina Ardentior"
                                                                 rel="bookmark"><img
                                                                 width="100" height="100"
-                                                                src="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-sunglasses-1-100x100.jpg"
+                                                                src=""
                                                                 class="attachment-thumbnail size-thumbnail wp-post-image"
                                                                 alt=""
-                                                                srcset="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-sunglasses-1-100x100.jpg 100w, http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-sunglasses-1-540x540.jpg 540w"
+                                                                srcset=""
                                                                 sizes="(max-width: 100px) 100vw, 100px"/>
                                                             <div class="rollover-overlay overlay-container">
                                                                 <div class="rollover-block">
@@ -838,14 +867,14 @@
                                                             </div>
                                                         </a></div>
                                                         <div class="portfolio-image"><a
-                                                                href="http://comely.netwp.net/portfolio-single/imposuit-mentisque/"
+                                                                href=""
                                                                 class="recent-popular-thumbnail rollover-link"
                                                                 title="View Project: Imposuit Mentisque" rel="bookmark"><img
                                                                 width="100" height="100"
-                                                                src="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-3-100x100.jpg"
+                                                                src=""
                                                                 class="attachment-thumbnail size-thumbnail wp-post-image"
                                                                 alt=""
-                                                                srcset="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-3-100x100.jpg 100w, http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-3-540x540.jpg 540w"
+                                                                srcset=""
                                                                 sizes="(max-width: 100px) 100vw, 100px"/>
                                                             <div class="rollover-overlay overlay-container">
                                                                 <div class="rollover-block">
@@ -858,15 +887,15 @@
                                                             </div>
                                                         </a></div>
                                                         <div class="portfolio-image"><a
-                                                                href="http://comely.netwp.net/portfolio-single/quisque-carentem/"
+                                                                href=""
                                                                 class="recent-popular-thumbnail rollover-link"
                                                                 title="View Project: Quisque Carentem"
                                                                 rel="bookmark"><img
                                                                 width="100" height="100"
-                                                                src="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-4-100x100.jpg"
+                                                                src=""
                                                                 class="attachment-thumbnail size-thumbnail wp-post-image"
                                                                 alt=""
-                                                                srcset="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-4-100x100.jpg 100w, http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-4-540x540.jpg 540w"
+                                                                srcset=""
                                                                 sizes="(max-width: 100px) 100vw, 100px"/>
                                                             <div class="rollover-overlay overlay-container">
                                                                 <div class="rollover-block">
@@ -879,14 +908,14 @@
                                                             </div>
                                                         </a></div>
                                                         <div class="portfolio-image"><a
-                                                                href="http://comely.netwp.net/portfolio-single/ventos-praeter/"
+                                                                href=""
                                                                 class="recent-popular-thumbnail rollover-link"
                                                                 title="View Project: Ventos Praeter" rel="bookmark"><img
                                                                 width="100" height="100"
-                                                                src="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-5-100x100.jpg"
+                                                                src=""
                                                                 class="attachment-thumbnail size-thumbnail wp-post-image"
                                                                 alt=""
-                                                                srcset="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-5-100x100.jpg 100w, http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-5-540x540.jpg 540w"
+                                                                srcset=""
                                                                 sizes="(max-width: 100px) 100vw, 100px"/>
                                                             <div class="rollover-overlay overlay-container">
                                                                 <div class="rollover-block">
@@ -899,14 +928,14 @@
                                                             </div>
                                                         </a></div>
                                                         <div class="portfolio-image"><a
-                                                                href="http://comely.netwp.net/portfolio-single/quem-pluviaque/"
+                                                                href=""
                                                                 class="recent-popular-thumbnail rollover-link"
                                                                 title="View Project: Quem Pluviaque" rel="bookmark"><img
                                                                 width="100" height="100"
-                                                                src="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-pencil-cases-1-100x100.jpg"
+                                                                src=""
                                                                 class="attachment-thumbnail size-thumbnail wp-post-image"
                                                                 alt=""
-                                                                srcset="http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-pencil-cases-1-100x100.jpg 100w, http://comely.netwp.net/wp-content/uploads/2016/10/portfolio-pencil-cases-1-540x540.jpg 540w"
+                                                                srcset=""
                                                                 sizes="(max-width: 100px) 100vw, 100px"/>
                                                             <div class="rollover-overlay overlay-container">
                                                                 <div class="rollover-block">
@@ -933,31 +962,31 @@
                                         <div class="navigation-overlay container-table-cell clearboth">
                                             <ul id="menu-overlay" class="menu">
                                                 <li class="menu-top-level menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2473 current_page_item">
-                                                    <a href="http://comely.netwp.net/"><span>Home</span></a></li>
+                                                    <a href=""><span>Home</span></a></li>
                                                 <li class="menu-top-level menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-parent-li">
                                                     <a href="#"><span>Pages</span></a>
                                                     <ul class="sub-menu">
                                                         <li class=" menu-item menu-item-type-post_type menu-item-object-page">
-                                                            <a href="http://comely.netwp.net/pages/about-us/"><span>About Us</span></a>
+                                                            <a href=""><span>About Us</span></a>
                                                         </li>
                                                         <li class=" menu-item menu-item-type-post_type menu-item-object-page">
-                                                            <a href="http://comely.netwp.net/pages/our-services/"><span>Our Services</span></a>
+                                                            <a href=""><span>Our Services</span></a>
                                                         </li>
                                                         <li class=" menu-item menu-item-type-post_type menu-item-object-page">
-                                                            <a href="http://comely.netwp.net/pages/contact-page/"><span>Contact Page</span></a>
+                                                            <a href=""><span>Contact Page</span></a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li class="menu-top-level menu-item menu-item-type-post_type menu-item-object-page">
-                                                    <a href="http://comely.netwp.net/news-events/"><span>Blog</span></a>
+                                                    <a href=""><span>Blog</span></a>
                                                 </li>
                                                 <li class="menu-top-level menu-item menu-item-type-post_type menu-item-object-page">
-                                                    <a href="http://comely.netwp.net/portfolios/"><span>Portfolios</span></a>
+                                                    <a href=""><span>Portfolios</span></a>
                                                 </li>
                                                 <li class="menu-top-level menu-item menu-item-type-post_type menu-item-object-page">
-                                                    <a href="http://comely.netwp.net/team/"><span>Team</span></a></li>
+                                                    <a href=""><span>Team</span></a></li>
                                                 <li class="menu-top-level menu-item menu-item-type-post_type menu-item-object-page">
-                                                    <a href="http://comely.netwp.net/shop/"><span>Shop</span></a></li>
+                                                    <a href=""><span>Shop</span></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -981,7 +1010,7 @@
                         <div id="site-overlay-search" class="site-overlay-content-search container-table clearboth">
                             <div class="container-table-cell">
                                 <div class="search-box">
-                                    <form method="get" action="http://comely.netwp.net/">
+                                    <form method="get" action="">
                                         <input id="search" class="search-field site-search" name="s" type="text"
                                                placeholder="Enter Keywords..." value=""/>
                                         <button class="button-input button-icon" type="submit"><i
@@ -1010,7 +1039,7 @@
                                     data-placement="top" title="Follow Us on Instagram" target="_blank" rel="nofollow">Instagram</a>
                             </div>
                         </div>
-                        <div class="site-overlay-copyright clearboth">Copyright 2017 <a href="http://comely.netwp.net/">Comely
+                        <div class="site-overlay-copyright clearboth">Copyright 2017 <a href="">Comely
                             Theme</a> by <a href="https://netwp.net/">NWN-Themes</a>. All Rights Reserved. Powered by <a
                                 href="https://wordpress.org">WordPress</a>.
                         </div>
