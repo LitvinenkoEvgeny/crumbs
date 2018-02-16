@@ -1,4 +1,5 @@
 var $ = window.jQuery;
+
 $(document).ready(function(){
     var items = $('.item');
     var buyButtons = $('.btn');

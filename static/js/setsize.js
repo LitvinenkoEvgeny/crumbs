@@ -8,8 +8,9 @@ function resizeArticles() {
 
     $articles.each(function (index, article) {
 
-        var contentHeight = $('.container-table', article).height();
-        var mediaHeight = $('.post-content-media').height();
+        var contentHeight = $('.container-table', article).outerHeight(true);
+        var mediaHeight = $('.post-content-media', article).outerHeight(true);
+        // console.log(article, 'Высота картинки: '+mediaHeight, 'Высота текста ' +contentHeight)
 
         if(isStacked){
             contentHeight += mediaHeight;
@@ -25,6 +26,8 @@ function resizeArticles() {
 }
 
 $(document).ready(function () {
-    resizeArticles();
+    setTimeout(() => {
+        $window.on('resize', resizeArticles);
+        resizeArticles();
+    }, 10000)
 });
-$window.on('resize', resizeArticles);
